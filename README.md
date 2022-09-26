@@ -7,6 +7,7 @@ Windows: Visual Studo 2019 or later
 Mac: XCODE 13.2.1
 Android: NDK 21.4.7075529
 Unreal Engine: 4.27 or 5.x
+Plugin: Cronos Play For Unreal Engine
 
 ## Pre-built Release
 Download the release zip file in [Release](https://github.com/cronos-labs/play-unreal-demo/releases) page.
