@@ -16,10 +16,10 @@ jobs:
   CronosPlaySimpleDemo:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Checkout play-unreal-plugin repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: cronos-labs/play-unreal-plugin
           path: simple/Plugins/play-unreal-plugin
@@ -52,10 +52,10 @@ jobs:
   CronosPlayMetaverseDemo:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Checkout play-unreal-plugin repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: cronos-labs/play-unreal-plugin
           path: Metaverse/Plugins/play-unreal-plugin
@@ -88,10 +88,10 @@ jobs:
   CronosPlayWalletConnectDemo:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Checkout play-unreal-plugin repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: cronos-labs/play-unreal-plugin
           path: walletconnect/Plugins/play-unreal-plugin
